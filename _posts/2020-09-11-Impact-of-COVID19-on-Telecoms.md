@@ -2,7 +2,7 @@
 layout: post
 title: Impact of COVID19
 ---
-Like other industries, Telecom industry has also been impacted by the ongoing pandemic crisis. We summarised the Impact of COVID19 on Telecoms industry in the written evidence submitted to the DCMS Committee. This can be found at: URL(https://committees.parliament.uk/writtenevidence/7245/html/) and is reproduced below.
+Like other industries, Telecom industry has also been impacted by the ongoing pandemic crisis. We summarised the Impact of COVID19 on Telecoms industry in the written evidence submitted to the DCMS Committee. This can be found at: https://committees.parliament.uk/writtenevidence/7245/html/ and is reproduced below.
 
 
 **Written evidence submitted by Professor Muhammad Ali Imran,**  
