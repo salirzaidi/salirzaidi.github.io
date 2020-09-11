@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Impact of COVID19
 ---
 <div>
