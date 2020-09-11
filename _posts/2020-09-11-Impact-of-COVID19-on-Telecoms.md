@@ -2,7 +2,6 @@
 layout: post
 title: Impact of COVID19
 ---
-<div align="justify">
   
 **Written evidence submitted by Professor Muhammad Ali Imran,**  
 **Dr Muhammad Zeeshan Shakir, Dr Syed Ali Zaidi and**  
@@ -109,4 +108,4 @@ title: Impact of COVID19
 [[15]](https://committees.parliament.uk/writtenevidence/7245/html/#_ftnref15) Nokia, “Nokia: new research highlights 5G Fixed Wireless Access opportunity for mobile operators”, June 2020 - [https://www.nokia.com/about-us/news/releases/2020/06/10/nokia-new-research-highlights-5g-fixed-wireless-access-opportunity-for-mobile-operators/](https://www.nokia.com/about-us/news/releases/2020/06/10/nokia-new-research-highlights-5g-fixed-wireless-access-opportunity-for-mobile-operators/)
 
 [[16]](https://committees.parliament.uk/writtenevidence/7245/html/#_ftnref16) Ofcom, “Shared Access Licences”, December 2019 - [https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/shared-access](https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/shared-access)
-</div>
+
