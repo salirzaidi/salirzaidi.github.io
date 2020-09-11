@@ -3,7 +3,7 @@ layout: post
 title: Impact of COVID19
 ---
 <div>
-
+<center>
 <span style="font-family:Calibri; font-size:14pt; font-weight:bold">Written e</span><span style="font-family:Calibri; font-size:14pt; font-weight:bold">vidence s</span><span style="font-family:Calibri; font-size:14pt; font-weight:bold">ubmitted by</span> <span style="font-family:Calibri; font-size:14pt; font-weight:bold">Professor Muhammad Ali Imran,</span>  
 <span style="font-family:Calibri; font-size:14pt; font-weight:bold">Dr Muhammad Zeeshan Shakir, Dr Syed Ali Zaidi and</span><span style="font-family:Calibri; font-size:14pt; font-weight:bold"></span>  
 <span style="font-family:Calibri; font-size:14pt; font-weight:bold">Dr Yusuf Abdulrahman Sambo</span>
@@ -13,7 +13,7 @@ title: Impact of COVID19
 <span style="font-family:Calibri; font-size:16pt; font-weight:bold">Impact of Covid-19 on DCMS Sectors</span>
 
 <span style="font-family:Calibri; font-size:11pt; font-weight:bold"> </span>
-
+</center>
 <span style="font-family:Calibri; font-size:14pt; font-weight:bold">About Us</span>
 
 *   <span style="font-family:Calibri; font-size:12pt; font-weight:bold">Muhammad Ali Imran</span> <span style="font-family:Calibri; font-size:12pt">is Dean University of Glasgow UESTC and a Professor of Wireless Communication Systems. He heads the Communications, Sensing and Imaging (CSI) research group at University of Glasgow and is the Director of Glasgow-UESTC Centre for Educational Development a</span><span style="font-family:Calibri; font-size:12pt">nd Innovation.</span>
