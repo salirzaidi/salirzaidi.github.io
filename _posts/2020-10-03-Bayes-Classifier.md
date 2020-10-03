@@ -1,4 +1,3 @@
-# Bayes Classifier
 In this blog post, I summarie how Bayes Classifiers operate and the magic behnid these very simple classification technique. Let $(X,Y)$ be a pair which takes values in $\mathbb{R}^d\times\mathcal{Y}=\{1,2,...,K\}$ where $Y$ is the class label associated with the observation $X$. The classification problem involves selecting class label $Y | X=x$.  Therefore the problem can be concisely stated as:
 **Input:** $X=x\in \mathbb{R}^d$
 **Output:** $Y\in\mathcal{Y}$
