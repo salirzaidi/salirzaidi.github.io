@@ -21,7 +21,7 @@ Therefore the $\mathbb{E}(C(x))$ can be minimised by selecting
 $$C(x)=\argmin_y\sum_{i=1}^KL(i,y)\Pr\{Y=i|X=x\}$$
 
 Consequently, the Bayes estimator can be given as
-$$C(x)=\argmax_i\Pr\{Y=i|X=x\}$$
+$$C(x)=\underset{i}\arg\max\Pr\{Y=i|X=x\}$$
 
 **Further References & Sources**
 M´ario A. T. Figueiredo, Lecture Notes on Bayesian Estimation and Classification
