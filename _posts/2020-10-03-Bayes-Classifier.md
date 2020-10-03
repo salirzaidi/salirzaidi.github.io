@@ -14,16 +14,16 @@ $$L= \begin{bmatrix}
 1 & 1&1&....&0 
 \end{bmatrix}_{K\times K}$$
 
-where the $L(k,l)$ is the cost of misclassifying the samples belonging to class $$k$$ as $$l$$. This is known as zero-one loss function. The expicted prediction error in this case is given by:\
+where the $$L(k,l)$$ is the cost of misclassifying the samples belonging to class $$k$$ as $$l$$. This is known as zero-one loss function. The expicted prediction error in this case is given by:\
 
 $$\begin{eqnarray}
-\mathbb{E}(C(x))=\mathbb{E}(L(\mathcal{Y},C(x))) \\
-\mathbb{E}(C(x))=\mathbb{E}_X\mathbb{E}_{Y|X}(L(\mathcal{Y},C(x)|X))\\
-\mathbb{E}(C(x))=\mathbb{E}_X\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}\\
-\mathbb{E}(C(x))=\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}\Pr\{X=x\}
+\mathbb{E}(C(x))&=&\mathbb{E}(L(\mathcal{Y},C(x))) \\
+\mathbb{E}(C(x))&=&\mathbb{E}_X\mathbb{E}_{Y|X}(L(\mathcal{Y},C(x)|X))\\
+\mathbb{E}(C(x))&=&\mathbb{E}_X\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}\\
+\mathbb{E}(C(x))&=&\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}\Pr\{X=x\}
 \end{eqnarray}$$
 
-Therefore the $\mathbb{E}(C(x))$ can be minimised by selecting 
+Therefore the $$\mathbb{E}(C(x))$$ can be minimised by selecting 
 
 \$$C(x)=\underset{y}\arg\min\sum_{i=1}^KL(i,y)\Pr{Y=i|X=x}$$\
 
