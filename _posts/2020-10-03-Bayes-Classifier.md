@@ -1,10 +1,10 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 In this blog post, I summarie how Bayes Classifiers operate and the magic behnid these very simple classification technique. Let $(X,Y)$ be a pair which takes values in $\mathbb{R}^d\times\mathcal{Y}=\{1,2,...,K\}$ where $Y$ is the class label associated with the observation $X$. The classification problem involves selecting class label $Y | X=x$.  Therefore the problem can be concisely stated as:
 
-**Input:** $X=x\in \mathbb{R}^d$
-**Output:** $Y\in\mathcal{Y}$
-**Goal:** To learn $C(x):\mathbb{R}^d\rightarrow\mathcal{Y}$ 
-**Joint Distribution:**  The joint distribution of $(X,Y)$ is given by $P(X,Y)$
+**Input:** $X=x\in \mathbb{R}^d$ \
+**Output:** $Y\in\mathcal{Y}$ \
+**Goal:** To learn $C(x):\mathbb{R}^d\rightarrow\mathcal{Y}$ \
+**Joint Distribution:**  The joint distribution of $(X,Y)$ is given by $P(X,Y)$ \
 **Loss Function:**  As $\mathcal{Y}$ is a discrete valued-set the squared-error function makes less sense, in this case the loss function can be defined as
 
 $$L= \begin{bmatrix}  
