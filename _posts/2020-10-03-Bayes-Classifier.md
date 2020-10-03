@@ -1,5 +1,5 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-In this blog post, I summarie how Bayes Classifiers operate and the magic behnid these very simple classification technique. Let $(X,Y)$ be a pair which takes values in $$\mathbb{R}^d\times\mathcal{Y}=\{1,2,...,K\}$$ where $$Y$$ is the class label associated with the observation $X$. The classification problem involves selecting class label $Y | X=x$.  Therefore the problem can be concisely stated as:
+In this blog post, I summarie how Bayes Classifiers operate and the magic behnid these very simple classification technique. Let $(X,Y)$ be a pair which takes values in $$\mathbb{R}^d\times\mathcal{Y}=\{1,2,...,K\}$$ where $$Y$$ is the class label associated with the observation $X$. The classification problem involves selecting class label $Y | X=x$.  Therefore the problem can be concisely stated as:\
 
 **Input:** $X=x\in \mathbb{R}^d$ \
 **Output:** $Y\in\mathcal{Y}$ \
@@ -16,12 +16,12 @@ $$L= \begin{bmatrix}
 \end{bmatrix}_{K\times K}$$
 
 where the $L(k,l)$ is the cost of misclassifying the samples belonging to class $k$ as $l$. This is known as zero-one loss function. The expicted prediction error in this case is given by:
-$$\mathbb{E}(C(x))=\mathbb{E}(L(\mathcal{Y},C(x)))$$
-$$\mathbb{E}(C(x))=\mathbb{E}_X\mathbb{E}_{Y|X}(L(\mathcal{Y},C(x)|X))$$
-$$\mathbb{E}(C(x))=\mathbb{E}_X\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}$$
-$$\mathbb{E}(C(x))=\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}\Pr\{X=x\}$$
+\$$\mathbb{E}(C(x))=\mathbb{E}(L(\mathcal{Y},C(x)))$$
+\$$\mathbb{E}(C(x))=\mathbb{E}_X\mathbb{E}_{Y|X}(L(\mathcal{Y},C(x)|X))$$
+\$$\mathbb{E}(C(x))=\mathbb{E}_X\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}$$
+\$$\mathbb{E}(C(x))=\sum_{i=1}^KL(i,C(x))\Pr\{Y=i|X=x\}\Pr\{X=x\}$$
 Therefore the $\mathbb{E}(C(x))$ can be minimised by selecting 
-$$C(x)=\underset{y}\arg\min\sum_{i=1}^KL(i,y)\Pr\{Y=i|X=x\}$$
+\$$C(x)=\underset{y}\arg\min\sum_{i=1}^KL(i,y)\Pr\{Y=i|X=x\}$$
 
 Consequently, the Bayes estimator can be given as
 $$C(x)=\underset{i}\arg\max\Pr\{Y=i|X=x\}$$
