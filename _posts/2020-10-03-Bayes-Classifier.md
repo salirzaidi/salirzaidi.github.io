@@ -25,7 +25,7 @@ $$\begin{eqnarray}
 
 Therefore the $$\mathbb{E}(C(x))$$ can be minimised by selecting 
 
-\$$C(x)=\underset{y}\arg\min\sum_{i=1}^KL(i,y)\Pr{Y=i|X=x}$$\
+$$C(x)=\underset{y}\arg\min\sum_{i=1}^KL(i,y)\Pr{Y=i|X=x}$$
 
 Consequently, the Bayes estimator can be given as
 
