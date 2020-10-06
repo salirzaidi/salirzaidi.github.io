@@ -1,7 +1,5 @@
 I have been exploring Nearest Neighbours Methods which are commonly adopted for solving classification problems. In the context of Indoor localisation, such methods are employed to identify LoS and NLoS propagation modes. This blog post basically provides a Jupyter Notebook to try this classification on your own using openly available data-set for UWB Localisation.
 The link for Jupyter notebook is [here]() and the Markdown version is provided in this post.
-
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 
